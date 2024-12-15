@@ -1,9 +1,126 @@
-<html>
-  <head>
-    <title>Ma première page HTML</title>
-  </head>
-  <body>
-    <h1>Salut Github !</h1>
-    <p>Ma nouvelle version !</p>
-  </body>
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+    <title>Portfolio CV - Jade FAROUX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <div class="container">
+            <h1>Jade FAROUX</h1>
+            <p>Etudiante | Webmastering | 1<sup>ère</sup> année</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="./projets.html">Projets</a></li>
+					<li><a href="#skills">Compétences</a></li>
+                    <li><a href="#experience">Expériences</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section A propos -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <p>
+                Bonjour, je m'appelle Jade Faroux, j'ai 21 ans et je suis étudiante en première année de Webmastering à la Faculté des Sciences & Techniques de Limoges. J'aime la création de contenus esthétiques mais aussi analyser et trouver des solutions aux problèmes.
+            </p>
+        </div><br>
+		
+		<h3 id="zones">Mes zones géographiques</h3>
+		<div class="zones">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45764.679913528904!2d0.5889964724157647!3d44.20104189649821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12abb31aff85830f%3A0x40665174815bbf0!2sAgen!5e0!3m2!1sfr!2sfr!4v1734197496963!5m2!1sfr!2sfr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d46513.438746346925!2d0.0309405!3d43.2285743!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a9d38abcf194c3%3A0x47bfee34eecc4749!2sTarbes!5e0!3m2!1sfr!2sfr!4v1734272137211!5m2!1sfr!2sfr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</section>
+
+    <!-- Section Compétences -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Mes Compétences</h2>
+            <ul>
+                <li>HTML, CSS, (JavaScript)</li>
+                <li>(Frameworks : React, Vue.js)</li>
+                <li>Outils : Git, Canva, Gimp</li>
+                <li>Gestion de projet : Trello</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Section Expériences -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Mes Expériences</h2>
+            <div class="experience">
+                <h3>DEUST Webmaster & Métiers de l'Internet</h3>
+                <p><i>Faculté des Sciences & Techniques, Université de Limoges | Septembre 2024 - Maintenant</i></p>
+                <p>
+                    En 2023 je n'ai pas pu effectuer la suite de mon parcours en Licence Pro Communication et valorisation des territoires : parcours NTIC, faute d'alternance. Je me suis lancée un défi : quitter le secteur touristique pour me lancer dans une formation entièrement dédiée aux TIC. Je voulais avoir une approche plus généralisée du milieu, j'ai alors choisi cette formation. Elle me permet également de me déplacer librement, et finalement de faire ce que j'aime, voyager.
+                </p>
+            </div>
+			<div class="experience">
+                <h3>BTS Tourisme</h3>
+                <p><i>Lycée G.T Pardailhan, Auch | 2021 - 2023</i></p>
+                <p>
+                    J'ai décidé de poursuivre dans un secteur qui m'intéressait fortement : le tourisme. J'y ai acquis des connaissances en marketing, territoires mondiaux ou encore gestion de la clientèle. Mais la matière où je me suis démarquée le plus est la Gestion de l'Information Touristique. J'ai alors approfondis mon intérêt pour un autre domaine : les TIC.
+                </p>
+            </div>
+            <div class="experience">
+                <h3>BAC PRO Gestion/Administration (ancien AGOrA)</h3>
+                <p><i>Lycée P.R. Antoine Lomet, Agen | 2018 - 2021</i></p>
+                <p>
+                    Ce bac professionnel m'a permis de faire mes premiers pas dans le monde du travail. Il m'a enseigné des bases, des savoirs basiques et essentiels, utiles dans tous types de domaines mais aussi dans la vie personnelle.
+                </p>
+            </div>
+        </div>
+    </section>
+
+  <!-- Section Hobbies -->
+    <section id="hobbies" class="section">
+        <div class="container">
+            <h2>Mes Hobbies</h2>
+            <ul>
+                <li>Dessin au crayon et digital, peinture, macramé...</li>
+                <li>Livres & Films psychologique/fiction, thrillers</li>
+                <li>Montage vidéo, retouche photo</li>
+                <li>Jeux vidéo type RPG/Action/Aventure </li>
+            </ul>
+        </div>
+    </section>
+	
+<!-- Section Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>N'hésitez pas à me contacter pour toute question ou collaboration :</p>
+            <form action="#" method="post">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="container">
+            <p>&copy; Jade FAROUX - Tous droits réservés</p>
+        </div>
+    </footer>
+</body>
 </html>
