@@ -12,12 +12,12 @@
     <header>
         <div class="container">
             <h1>Jade FAROUX</h1>
-            <p>Etudiante | Webmastering | 1<sup>ère</sup> année</p>
+            <p>Etudiante | DEUST Webmaster | 1<sup>ère</sup> année</p>
             <nav>
                 <ul>
                     <li><a href="#about">À propos</a></li>
+		    <li><a href="#skills">Compétences</a></li>
                     <li><a href="./projets.html">Projets</a></li>
-					<li><a href="#skills">Compétences</a></li>
                     <li><a href="#experience">Expériences</a></li>
                     <li><a href="#hobbies">Hobbies</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -31,7 +31,7 @@
         <div class="container">
             <h2>À propos de moi</h2>
             <p>
-                Bonjour, je m'appelle Jade Faroux, j'ai 21 ans et je suis étudiante en première année de Webmastering à la Faculté des Sciences & Techniques de Limoges. J'aime la création de contenus esthétiques mais aussi analyser et trouver des solutions aux problèmes.
+                Bonjour, je m'appelle Jade Faroux, j'ai 21 ans et je suis étudiante en première année de DEUST Webmaster à la Faculté des Sciences & Techniques de Limoges. J'aime la création de contenus esthétiques mais aussi analyser et trouver des solutions aux problèmes.
             </p>
         </div><br>
 		
@@ -42,15 +42,36 @@
 		</div>
 	</section>
 
+	<!-- Section Projets -->
+	<section id="projets" class="section">
+		<div class="container">
+			<h2>Mes projets</h2>
+			<div class="projects"
+			<p>Voici une liste de projets que j'ai pu effectuer lors de ma première année de formation.	
+				<h3>Maquettes pour la commune d'Estillac</h3>
+				<p>L'objectif était de renouveler la charte graphique et le site d'une commune française en lui proposant des maquettes.</p>
+				<button>Voir le projet</button>
+				<br>
+				<h3>Site WordPress pour la Société d'Astronomie du Limousin</h3>
+				<p>Création d'un site Wordpress en groupe sur le thème de l'astronomie pour une association.</p>
+				<button>Voir le projet</button>
+				<br>
+				<h3>Formulaire de commande avec JavaScript</h3>
+				<p>Un formulaire de commande fictif pour plats à emporter sur le thème du MMO Guid Wars 2, permettant de mettre en pratique les compétences JavaScript.</p>
+				<button>Voir le projet</button>
+				<br>
+			</div>
+	</section>
+	
     <!-- Section Compétences -->
     <section id="skills" class="section">
         <div class="container">
             <h2>Mes Compétences</h2>
             <ul>
-                <li>HTML, CSS, (JavaScript)</li>
-                <li>(Frameworks : React, Vue.js)</li>
-                <li>Outils : Git, Canva, Gimp</li>
-                <li>Gestion de projet : Trello</li>
+                <li>HTML5/CSS3/JS</li>
+                <li>VSCode/WordPress/Wix</li>
+                <li>GitHub/PHP/MySQL</li>
+                <li>Canva/Gimp/CapCut</li>
             </ul>
         </div>
     </section>
@@ -61,7 +82,7 @@
             <h2>Mes Expériences</h2>
             <div class="experience">
                 <h3>DEUST Webmaster & Métiers de l'Internet</h3>
-                <p><i>Faculté des Sciences & Techniques, Université de Limoges | Septembre 2024 - Maintenant</i></p>
+                <p><i>Faculté des Sciences & Techniques, Université de Limoges | Septembre 2024 - Aujourd'hui</i></p>
                 <p>
                     En 2023 je n'ai pas pu effectuer la suite de mon parcours en Licence Pro Communication et valorisation des territoires : parcours NTIC, faute d'alternance. Je me suis lancée un défi : quitter le secteur touristique pour me lancer dans une formation entièrement dédiée aux TIC. Je voulais avoir une approche plus généralisée du milieu, j'ai alors choisi cette formation. Elle me permet également de me déplacer librement, et finalement de faire ce que j'aime, voyager.
                 </p>
@@ -101,18 +122,12 @@
         <div class="container">
             <h2>Contact</h2>
             <p>N'hésitez pas à me contacter pour toute question ou collaboration :</p>
-            <form action="#" method="post">
-                <label for="name">Nom</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-                
-                <button type="submit">Envoyer</button>
-            </form>
+		<form action="https://formsubmit.co/jade.faroux@etu.unilim.com" method="POST">
+			<input type="text" name="nom" placeholder="Votre nom" required>
+			<input type="email" name="email" placeholder="Votre adresse mail" required>
+			<textarea name="message" placeholder="Ecrivez ici votre message"></textarea>
+			<button type="submit">Envoyer</button>
+		</form>
         </div>
     </section>
 
