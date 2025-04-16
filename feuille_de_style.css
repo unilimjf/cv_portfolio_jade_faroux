@@ -1,0 +1,317 @@
+legend {
+    font-family: 'Cinzel', serif;
+    color: #1C1C1C;
+    font-size: 18px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 200px !important;
+    height: auto !important;
+}
+
+fieldset {
+    margin-bottom: 2em;
+    background-color: white;
+    border-radius: 10px;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+}
+
+
+h1,
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+    color: #D4A017;
+}
+
+form {
+    display: block;
+    margin: 20px auto;
+    width: 40em;
+    border: 3px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Mise en forme des input et des différents champs */
+#partie1 input,
+.partie2 input,
+.date-heure input,
+.form-group input,
+select,
+textarea {
+    border: 1px solid #1C1C1C;
+    border-radius: 50px;
+    background-color: #F8F1E5;
+    padding: 8px;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+textarea {
+    padding-left: 20px !important;
+}
+
+#commande {
+    border: 1px solid #F8F1E5;
+    border-radius: 50px;
+    background-color: #D4A017;
+    display: flex;
+    margin: auto;
+    padding: 8px;
+    width: 30%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    font-family: 'Cinzel', serif;
+    color: #F8F1E5;
+}
+
+#commande:hover {
+    background-color: #A32824;
+    font-weight: 700;
+}
+
+input:active {
+    border: 1px;
+    border-color: #88888888;
+    border-radius: 50px;
+}
+
+
+.nom-p {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+
+.date-code {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+
+.date-heure {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.total {
+    text-align: right;
+}
+
+.case-a-cocher {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.case-a-cocher {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+}
+
+.case-a-cocher p {
+    margin: 0;
+    padding-left: 5px;
+}
+
+.nom-p p {
+    margin: 0;
+}
+
+.logo {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom, #A32824, #D4A017);
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.comm {
+    border-radius: 5px;
+}
+
+/* Mis en forme des catégories de nourritures */
+.categories {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #D4A017;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.category span {
+    margin-left: 8px;
+    font-weight: 300;
+}
+
+.category span:hover {
+    font-weight: 700;
+}
+
+.category:hover {
+    background-color: #A32824;
+}
+
+/* Menu items */
+.menu-items {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    background: white;
+    border-radius: 10px;
+    padding: 8px;
+    text-align: center;
+    width: 22%;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    text-align: center;
+}
+
+.menu-items p {
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(127, 127, 127);
+}
+
+.discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #A32824;
+    color: white;
+    font-weight: 700;
+    padding: 5px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.quantite-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.quantite {
+    margin: 0;
+    text-align: center;
+    width: 30px;
+}
+
+.plus {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 2px 8px;
+    background: #D4A017;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: auto;
+    align-self: center;
+}
+
+.plus:hover {
+    color: white;
+    background-color: #BA601E;
+    transition: color 0.3s ease;
+}
+
+.moins {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 2px 11px;
+    background: #A32824;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: auto;
+}
+
+.moins:hover {
+    color: white;
+    background-color: #BA601E;
+    transition: color 0.3s ease;
+}
+
+.confirmation {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.msg_err {
+    text-align: center;
+    font-style: italic;
+    margin-top: -1px;
+    color: #A32824;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid #1C1C1C;
+    outline: none;
+}
