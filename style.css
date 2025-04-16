@@ -85,7 +85,7 @@ header nav ul li a:hover {
     font-size: 2rem;
 }
 
-/* À propos */
+/* A propos */
 #about p {
     max-width: 800px;
     margin: 0 auto;
@@ -183,6 +183,10 @@ header nav ul li a:hover {
     font-weight: bold;
 }
 
+#maquettes h3 {
+    texte-align: center;
+}
+
 /* Contact */
 #contact p {
 	text-align: center;
@@ -220,7 +224,7 @@ header nav ul li a:hover {
     background-color: #045d58;
 }
 
-/* Pied de page */
+/* Footer */
 footer {
     background-color: #023C40;
     color: white;
