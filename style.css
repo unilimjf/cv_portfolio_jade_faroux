@@ -106,7 +106,7 @@ header nav ul li a:hover {
 }
 
 /* Compétences */
-#skills ul {
+#hobbies ul {
     list-style: none;
     padding: 0;
     display: flex;
@@ -115,7 +115,7 @@ header nav ul li a:hover {
     gap: 10px;
 }
 
-#skills ul li {
+#hobbies ul li {
     background-color: #f7f7f7;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -124,7 +124,7 @@ header nav ul li a:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#skills ul li:hover {
+#hobbies ul li:hover {
     transform: translateY(-5px) scale(1.05);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     cursor: pointer;
