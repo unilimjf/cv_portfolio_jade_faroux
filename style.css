@@ -123,7 +123,7 @@ header nav ul li a:hover {
     font-weight: bold;
 }
 
-#hobbies ul li:hover {
+#skills ul li:hover {
     transform: translateY(-5px) scale(1.05);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     cursor: pointer;
@@ -191,6 +191,7 @@ header nav ul li a:hover {
     border-radius: 5px;
     padding: 50px 70px;
     font-weight: bold;
+    text-align: center;
 }
 
 #hobbies ul li:hover {
