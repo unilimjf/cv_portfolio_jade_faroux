@@ -109,17 +109,19 @@ header nav ul li a:hover {
 #hobbies ul {
     list-style: none;
     padding: 0;
-    display: flex;
-    flex-wrap: wrap;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
     justify-content: center;
-    gap: 10px;
 }
 
 #hobbies ul li {
     background-color: #f7f7f7;
     border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 5px 10px;
+    border-radius: 12px;
+    padding: 30px 20px;
     font-weight: bold;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -259,7 +261,7 @@ footer p {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     header h1 {
         font-size: 2rem;
     }
@@ -277,4 +279,8 @@ footer p {
     .section h2 {
         font-size: 1.5rem;
     }
+
+    #hobbies ul {
+    grid-template-columns: 1fr; /* une colonne en version mobile */
+  }
 }
