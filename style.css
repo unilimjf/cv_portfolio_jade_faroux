@@ -106,25 +106,21 @@ header nav ul li a:hover {
 }
 
 /* Compétences */
-#hobbies ul {
+#skills ul {
     list-style: none;
     padding: 0;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(250px, 1fr));
-    gap: 30px;
-    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 10px;
 }
 
-#hobbies ul li {
+#skills ul li {
     background-color: #f7f7f7;
     border: 1px solid #ddd;
-    border-radius: 12px;
-    padding: 30px 20px;
+    border-radius: 5px;
+    padding: 10px 20px;
     font-weight: bold;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #hobbies ul li:hover {
