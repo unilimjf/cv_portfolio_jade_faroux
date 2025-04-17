@@ -17,7 +17,7 @@ a {
 }
 
 a:hover {
-    color: #0056b3;
+    color: #073363;
 }
 
 .container {
@@ -121,6 +121,14 @@ header nav ul li a:hover {
     border-radius: 5px;
     padding: 10px 20px;
     font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#skills ul li:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #e0f7f5;
+    cursor: pointer;
 }
 
 /* Expériences */
@@ -181,6 +189,14 @@ header nav ul li a:hover {
     border-radius: 5px;
     padding: 50px 70px;
     font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#hobbies ul li:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #e0f7f5;
+    cursor: pointer;
 }
 
 #maquettes h3 {
