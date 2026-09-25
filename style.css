@@ -87,7 +87,7 @@ header nav ul li a:hover {
 
 /* A propos */
 #about p {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
     font-size: 1.1rem;
